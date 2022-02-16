@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +37,7 @@
     <div id="index-sections">
         <section id="hero-section">
             <div id="contenedor-img-hero">
-                <img id="imagen-hero" src="./img/hero.jpg" alt="hero" width="600" height="300">
+                <img id="imagen-hero" class=scale-up-center src="./img/hero.jpg" alt="hero" width="600" height="300">
             </div>
             <div>
                 <p id="texto-hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate, nisi vero omnis debitis corrupti architecto beatae libero, culpa dicta voluptatem, nulla illum mollitia deserunt. Cumque ipsum quasi pariatur consectetur!
@@ -87,7 +89,7 @@
     
 
     <footer>
-        <div id="footer">
+        <div id="footer"  data-aos="flip-right" data-aos-duration="3000">
             <a href="./index.html"> 
                 <img src="./img/logojyd.png" alt="logo" width="100" height="100">
             </a> 
@@ -99,5 +101,8 @@
             </a>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
