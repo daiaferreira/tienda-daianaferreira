@@ -14,6 +14,9 @@ h1{
 h2{
     font-size: 3rem; font-family: 'Architects Daughter', cursive; color: #9D8189;
 }
+nav{
+    display: contents;
+}
 a{color: black; text-decoration: none;
 }
 p{
@@ -43,9 +46,14 @@ footer{
 
 /* ESTILOS A TRAVES DE CLASES Y SELECTORES COMPUESTOS */
 
+.imgnormalizada img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+  }
 .header__searchbar li{
     display: inline-block; font-family: 'Caveat', cursive; padding: 1rem; background-color: #FFE5D9;
-    border:#9D8189 solid 0.2rem;  font-weight: bold; position:relative; font-size: 2rem; margin: 1rem; margin-top: 5rem; margin-bottom: 5rem; transition: padding 2s;
+    border:#9D8189 solid 0.2rem;  font-weight: bold; position:relative; font-size: 2rem; margin: 1rem; margin-top: 5rem; margin-bottom: 5rem; transition: padding 2s; display: contents;
 }
 .header__searchbar li:hover {
 padding: 2rem;
@@ -112,10 +120,7 @@ select{
   
 
 /* VISTA DESKTOP */
-body{
-    display: grid;
-    grid-template-rows: 200px 1fr 200px; align-content: center;
-}
+
 #index-sections{
     display: grid; grid-template-rows: repeat(4, 1fr); align-content: center;
 }
@@ -150,9 +155,7 @@ header{
     display: grid; grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 500px; justify-items: center; align-items: center;
 }
-#secciones{
-display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
+
 #bijoux{
     display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
 }
@@ -202,12 +205,10 @@ display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-betwee
     }
     #comprar{grid-template-columns: 1fr; grid-template-rows: repeat(2, 1fr);justify-content: center; align-content: center;
     }
-    body{
-        display: grid;
-        grid-template-rows: 300px 1fr 200px;
+    
     }
     #index-sections{
-        display: grid; grid-template-rows: 820px 1fr 1fr 1fr; align-content: center;
+        
     }
     
     
@@ -217,8 +218,7 @@ display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-betwee
     }
     .header__searchbar li{ display: flex; flex-direction: column; justify-content: center; font-size: 1rem; margin: 0,5rem; margin-top: 2rem; margin-bottom: 2rem
     }
-    body{ display: grid; grid-template-rows: 500px 1fr 200px; align-items: center; justify-items: center;
-    }
+   
     #contenedor-img-hero{
         width: 300px; height: 200px;
     }
