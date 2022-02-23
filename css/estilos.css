@@ -14,9 +14,7 @@ h1{
 h2{
     font-size: 3rem; font-family: 'Architects Daughter', cursive; color: #9D8189;
 }
-nav{
-    display: contents;
-}
+
 a{color: black; text-decoration: none;
 }
 p{
@@ -25,9 +23,7 @@ p{
 section{
    text-align: center
 }
-form{
-    font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; padding: 5rem; background-color: #FFE5D9; overflow: hidden; text-align: center;
-}
+
 body{
     background: rgb(244,172,183);
     background: -moz-radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
@@ -36,24 +32,22 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4acb7",endColorstr="#ffcad4",GradientType=1);    
 }
 header{
-    background-color: #FFE5D9; background-image:url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-size: cover; background-position: center; 
+    background-color: #FFE5D9; background-image:url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-size: cover; background-position: center; overflow: hidden;
 }
 footer{
-    background-color: #FFE5D9; background-image: url(https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80); background-repeat: repeat-x; background-size: cover; background-position: center;
+    background-color: #FFE5D9; background-image: url(https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80); background-repeat: repeat-x; background-size: cover; background-position: center; overflow: hidden;
 }
 
 
 
 /* ESTILOS A TRAVES DE CLASES Y SELECTORES COMPUESTOS */
 
-.imgnormalizada img {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-  }
+.header__searchbar{
+    margin-top: 5rem;
+}
 .header__searchbar li{
-    display: inline-block; font-family: 'Caveat', cursive; padding: 1rem; background-color: #FFE5D9;
-    border:#9D8189 solid 0.2rem;  font-weight: bold; position:relative; font-size: 2rem; margin: 1rem; margin-top: 5rem; margin-bottom: 5rem; transition: padding 2s; display: contents;
+    font-family: 'Caveat', cursive; padding: 1rem; background-color: #FFE5D9;
+    border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin: 1rem; margin-top: 10rem; margin-bottom: 5rem; transition: padding 2s; display: contents;
 }
 .header__searchbar li:hover {
 padding: 2rem;
@@ -79,13 +73,13 @@ footer div a{
 }
 label {
     display: block; /* Ahora los inputs quedan debajo de los label */
-    padding: 5px; /* Separando espacios internos */
+    padding: 1rem; /* Separando espacios internos */
 }
 input { 
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; margin: 1%; text-align:left; height: 3rem;
+    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; margin: 1rem; text-align:left; height: 3rem;
 }
 option{
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; 
+    font-family: 'Architects Daughter', cursive; font-size: 1,5rem; 
 }
 select{
     font-family: 'Architects Daughter', cursive; font-size: 2rem; height: 3rem;
@@ -119,58 +113,10 @@ select{
   }
   
 
-/* VISTA DESKTOP */
-
-#index-sections{
-    display: grid; grid-template-rows: repeat(4, 1fr); align-content: center;
-}
-#footer{
-    display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; 
-}
-header{
-    display: flex; flex-direction: row; align-items: center; align-content: center;
-}
-#hero-section{
-    display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center; align-items: center;
-}
-#novedades{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
-#destacados{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: center;
-}
-#pago{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: center;
-}
 #pago img{
     margin: 2rem;
 }
-#tienda-sections{
-    display: grid; grid-template-rows: 1fr, 2fr, 1fr, 1fr, 1fr, 1fr
-}
-#ofertas-sections{
-    display: grid; grid-template-rows: repeat(5, 1fr)
-}
-#comprar{
-    display: grid; grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 500px; justify-items: center; align-items: center;
-}
 
-#bijoux{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
-#accesorioscabello{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
-#relojes{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
-#carteras{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
-#vestimenta{
-    display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between;
-}
 #imagen-hero{
     height: 100%;
     width: 100%;
@@ -182,69 +128,39 @@ header{
     object-fit: contain;
 }
 #boton-hero{
-    height: 100%;
-    width: 100%;
+    
+   
     object-fit: contain;  
 }
 #video-comprar{
+    width: 90%;
+    height: 90%;
+    overflow:hidden;
+    
+}
+.form-contacto{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    overflow: hidden;
+    padding: 1rem;
+    font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; background-color: #FFE5D9; text-align: center;
 }
-#form-contacto{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+#name-contacto{
+    font-size: ;
+}
+legend{
+    font-size: 2rem
+}
+#font1{
+    font-size: 1.5rem;
+}
+#boton-enviar{
+    overflow: hidden; margin: 1rem;
 }
 
-
-/* VISTA TABLET Y MOBILE */
-@media screen and (max-width: 768px){
-    #hero-section{
-        display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(2, 1fr); justify-items: center; align-items: center;
-    }
-    #comprar{grid-template-columns: 1fr; grid-template-rows: repeat(2, 1fr);justify-content: center; align-content: center;
-    }
-    
-    }
-    #index-sections{
-        
-    }
-    
-    
+img{
+    margin-top: 1.5rem; margin-bottom: 1.5rem;
 }
-@media screen and (max-width: 320px){
-    header{ display: flex; flex-direction: column; justify-content: center; 
-    }
-    .header__searchbar li{ display: flex; flex-direction: column; justify-content: center; font-size: 1rem; margin: 0,5rem; margin-top: 2rem; margin-bottom: 2rem
-    }
-   
-    #contenedor-img-hero{
-        width: 300px; height: 200px;
-    }
-    #hero-section{
-        display: grid; grid-template-columns: 1fr; grid-template-rows: 200px 1fr; justify-content: center; justify-items: center; align-items: center; align-content: center;
-    }
-    #comprar{
-        display: grid; grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr; justify-items: center; align-items: center;
-    }
-    #contenedor-video-comprar{
-        height: 200px;
-    }
-    label{
-        font-size: 1.5rem;
-    }
-    input{
-        font-size: 1.5rem;
-    }
-    option{
-        font-size: 1.5rem;
-    }
-    select{
-        font-size: 1.5rem;
-    }
-
-     
-
+#contenedor-video-comprar{ margin: 3rem; width="560"; height="315"; overflow:hidden; flex-shrink: 10;
 }
