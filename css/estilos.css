@@ -32,10 +32,10 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4acb7",endColorstr="#ffcad4",GradientType=1);    
 }
 header{
-    background-color: #FFE5D9; background-image:url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-size: cover; background-position: center; overflow: hidden;
+    background-color: #FFE5D9; background-image:url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-size: cover; background-position: top; overflow: hidden;
 }
 footer{
-    background-color: #FFE5D9; background-image: url(https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80); background-repeat: repeat-x; background-size: cover; background-position: center; overflow: hidden;
+    background-color: #FFE5D9; background-image: url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-repeat: repeat-x; background-size: cover; background-position: center; overflow: hidden;
 }
 
 
@@ -43,17 +43,18 @@ footer{
 /* ESTILOS A TRAVES DE CLASES Y SELECTORES COMPUESTOS */
 
 .header__searchbar{
-    margin-top: 5rem;
+    margin-top: 5rem; color:#9D8189
 }
 .header__searchbar li{
     font-family: 'Caveat', cursive; padding: 1rem; background-color: #FFE5D9;
-    border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin: 1rem; margin-top: 10rem; margin-bottom: 5rem; transition: padding 2s; display: contents;
+    border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 10rem; margin-bottom: 5rem; transition: padding 2s; display: contents; color:#9D8189;
 }
+
 .header__searchbar li:hover {
 padding: 2rem;
 }
 .pasoscomprar li{
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; padding-left: 1rem; margin: 1%; text-align:left;
+    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; padding-left: 1rem; text-align:left;
 }
 .logo{
     width: 15rem; height: 15rem; margin: 1rem; border: 1rem solid #9D8189; padding: 1rem; transition: padding 2s;
@@ -69,7 +70,7 @@ footer div a{
     width: fit-content;
 }
 #boton-hero{
-    font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin: 1rem; margin-top: 1rem; margin-bottom: 1rem;
+    font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 1rem; margin-bottom: 1rem;
 }
 label {
     display: block; /* Ahora los inputs quedan debajo de los label */
@@ -114,23 +115,23 @@ select{
   
 
 #pago img{
-    margin: 2rem;
+;
 }
 
 #imagen-hero{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 #texto-hero{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 #boton-hero{
     
    
-    object-fit: contain;  
+    object-fit: cover;  
 }
 #video-comprar{
     width: 90%;
@@ -141,7 +142,7 @@ select{
 .form-contacto{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     overflow: hidden;
     padding: 1rem;
     font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; background-color: #FFE5D9; text-align: center;
@@ -163,4 +164,7 @@ img{
     margin-top: 1.5rem; margin-bottom: 1.5rem;
 }
 #contenedor-video-comprar{ margin: 3rem; width="560"; height="315"; overflow:hidden; flex-shrink: 10;
+}
+.img-carrusel{
+    height: 50vh; object-fit: cover
 }
