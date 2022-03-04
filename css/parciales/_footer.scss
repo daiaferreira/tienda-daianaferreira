@@ -1,0 +1,9 @@
+@import "./parciales/variables";
+
+footer{
+    background-color: $color-crema; background-image: url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-repeat: repeat-x; background-size: cover; background-position: center; overflow: hidden;
+    & div a{
+        padding: 1rem;
+    }
+}
+

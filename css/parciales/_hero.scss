@@ -1,0 +1,40 @@
+@import "./parciales/variables";
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 4s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite alternate backwards;
+	        animation: scale-up-center 4s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite alternate backwards;
+}
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+#imagen-hero{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+#texto-hero{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#boton-hero{
+    object-fit: cover;font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 1rem; margin-bottom: 1rem;
+}

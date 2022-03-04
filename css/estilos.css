@@ -66,9 +66,7 @@ padding: 2rem;
 footer div a{
     padding: 1rem;
 }
-#image-hero{
-    width: fit-content;
-}
+
 #boton-hero{
     font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 1rem; margin-bottom: 1rem;
 }
@@ -114,9 +112,7 @@ select{
   }
   
 
-#pago img{
-;
-}
+
 
 #imagen-hero{
     height: 100%;
@@ -128,9 +124,7 @@ select{
     width: 100%;
     object-fit: cover;
 }
-#boton-hero{
-    
-   
+#boton-hero{ 
     object-fit: cover;  
 }
 #video-comprar{
@@ -147,9 +141,6 @@ select{
     padding: 1rem;
     font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; background-color: #FFE5D9; text-align: center;
 }
-#name-contacto{
-    font-size: ;
-}
 legend{
     font-size: 2rem
 }
@@ -163,7 +154,7 @@ legend{
 img{
     margin-top: 1.5rem; margin-bottom: 1.5rem;
 }
-#contenedor-video-comprar{ margin: 3rem; width="560"; height="315"; overflow:hidden; flex-shrink: 10;
+#contenedor-video-comprar{ margin: 3rem; width:560px; height:315px; overflow:hidden; flex-shrink: 10;
 }
 .img-carrusel{
     height: 50vh; object-fit: cover

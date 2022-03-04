@@ -1,0 +1,39 @@
+@import "./parciales/variables";
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: rgb(244,172,183);
+    background: -moz-radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
+    background: radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4acb7",endColorstr="#ffcad4",GradientType=1);    
+}
+.pasoscomprar li{
+    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; padding-left: 1rem; text-align:left;
+}
+#terminos label{
+    display: inline-block;
+}
+#video-comprar{
+    width: 90%;
+    height: 90%;
+    overflow:hidden;
+}
+.form-contacto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 1rem;
+    font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; background-color: $color-crema; text-align: center;
+}
+#boton-enviar{
+    overflow: hidden; margin: 1rem;
+}
+#contenedor-video-comprar{ margin: 3rem; width:560px; height:315px; overflow:hidden; flex-shrink: 10;
+}
+.img-carrusel{
+    height: 50vh; object-fit: cover
+}
