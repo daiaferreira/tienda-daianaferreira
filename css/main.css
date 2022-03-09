@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +18,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   color: #9D8189;
 }
 
@@ -29,7 +28,7 @@ a {
 }
 
 p {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   line-height: 2;
   font-size: 2rem;
   background-color: #FFE5D9;
@@ -50,7 +49,7 @@ label {
 }
 
 input {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 2rem;
   list-style-type: number;
   margin: 1rem;
@@ -59,12 +58,12 @@ input {
 }
 
 option {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 1,5rem;
 }
 
 select {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 2rem;
   height: 3rem;
 }
@@ -155,21 +154,14 @@ header .header__searchbar li:hover {
   }
 }
 
-#imagen-hero {
+.imagen-hero, .texto-hero {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#texto-hero {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#boton-hero {
+.boton-hero {
   -o-object-fit: cover;
      object-fit: cover;
   font-family: 'Caveat', cursive;
@@ -205,7 +197,7 @@ body {
 }
 
 .pasoscomprar li {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 2rem;
   list-style-type: number;
   padding-left: 1rem;
@@ -229,7 +221,7 @@ body {
      object-fit: cover;
   overflow: hidden;
   padding: 1rem;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   line-height: 2;
   font-size: 2rem;
   background-color: #FFE5D9;

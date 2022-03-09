@@ -1,4 +1,4 @@
-@import "./parciales/variables";
+@import "./variables";
 
 .scale-up-center {
 	-webkit-animation: scale-up-center 4s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite alternate backwards;
@@ -24,17 +24,15 @@
               transform: scale(1);
     }
   }
-#imagen-hero{
+.imagen-hero{
     height: 100%;
     width: 100%;
     object-fit: cover;
   
 }
-#texto-hero{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.texto-hero{
+    @extend .imagen-hero;
 }
-#boton-hero{
-    object-fit: cover;font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 1rem; margin-bottom: 1rem;
+.boton-hero{
+    object-fit: cover;font-family: 'Caveat', cursive; padding: 1rem; border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; @include margins(1rem, 1rem);
 }

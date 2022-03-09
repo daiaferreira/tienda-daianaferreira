@@ -1,4 +1,4 @@
-@import "./parciales/variables";
+@import "./variables";
 
 header{
     background-color: $color-crema; background-image:url(https://images.unsplash.com/photo-1608508644127-ba99d7732fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-size: cover; background-position: top; overflow: hidden;
@@ -6,7 +6,7 @@ header{
         margin-top: 5rem; color:#9D8189;
         & li{
             font-family: 'Caveat', cursive; padding: 1rem; background-color: $color-crema;
-            border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; margin-top: 10rem; margin-bottom: 5rem; transition: padding 2s; display: contents; color:#9D8189;
+            border:#9D8189 solid 0.2rem;  font-weight: bold; font-size: 2rem; @include margins(10rem, 5rem); transition: padding 2s; display: contents; color:#9D8189;
         }
         & li:hover {
             padding: 2rem;

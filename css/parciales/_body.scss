@@ -1,4 +1,4 @@
-@import "./parciales/variables";
+@import "./variables";
 
 html{
     font-size: 62.5%;
@@ -11,7 +11,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4acb7",endColorstr="#ffcad4",GradientType=1);    
 }
 .pasoscomprar li{
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; padding-left: 1rem; text-align:left;
+    font-family: map-get($estilos-base,font-family), cursive; font-size: map-get($estilos-base,font-size); list-style-type: number; padding-left: 1rem; text-align:left;
 }
 #terminos label{
     display: inline-block;
@@ -27,7 +27,7 @@ body{
     object-fit: cover;
     overflow: hidden;
     padding: 1rem;
-    font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem; background-color: $color-crema; text-align: center;
+    font-family: map-get($estilos-base,font-family), cursive; line-height: 2; font-size: 2rem; background-color: $color-crema; text-align: map-get($estilos-base,text-align);
 }
 #boton-enviar{
     overflow: hidden; margin: 1rem;

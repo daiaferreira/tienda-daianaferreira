@@ -3,3 +3,17 @@ $color-crema: #FFE5D9;
 $color-rosa-claro: #FFCAD4;
 $color-rosa-oscuro: #F4ACB7;
 $color-marron: #9D8189;
+
+$estilos-base: (
+    font-family: 'Architects Daughter',
+    font-size: 2rem,
+    text-align: center,
+    height: 3rem,
+    margin: 1rem,
+
+);
+
+@mixin margins($margin-top, $margin-bottom) {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}

@@ -1,38 +1,40 @@
+@import "./variables";
 
 h1{
     font-size: 4rem; color: #F4ACB7; font-family: 'Caveat', cursive;
 }
 h2{
-    font-size: 3rem; font-family: 'Architects Daughter', cursive; color: #9D8189;
+    font-size: 3rem; font-family: map-get($estilos-base,font-family), cursive; color: #9D8189;
 }
 
 a{color: black; text-decoration: none;
 }
 p{
-    font-family: 'Architects Daughter', cursive; line-height: 2; font-size: 2rem;background-color: $color-crema; overflow: hidden; text-align: center; display: inline-block;
+    font-family: map-get($estilos-base,font-family), cursive; line-height: 2; font-size: map-get($estilos-base,font-size);background-color: $color-crema; overflow: hidden; text-align: map-get($estilos-base,text-align); display: inline-block;
 }
 section{
-   text-align: center
+    text-align: map-get($estilos-base,text-align);
 }
 label {
     display: block; /* Ahora los inputs quedan debajo de los label */
     padding: 1rem; /* Separando espacios internos */
 }
 input { 
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; list-style-type: number; margin: 1rem; text-align:left; height: 3rem;
+    font-family: map-get($estilos-base,font-family), cursive; font-size: map-get($estilos-base,font-size); list-style-type: number; margin: map-get($estilos-base,margin);
+    text-align:left; height: map-get($estilos-base,height);
 }
 option{
-    font-family: 'Architects Daughter', cursive; font-size: 1,5rem; 
+    font-family: map-get($estilos-base,font-family), cursive; font-size: 1,5rem; 
 }
 select{
-    font-family: 'Architects Daughter', cursive; font-size: 2rem; height: 3rem;
+    font-family: map-get($estilos-base,font-family), cursive; font-size: map-get($estilos-base,font-size); height: map-get($estilos-base,height);
 }
 legend{
-    font-size: 2rem
+    font-size: map-get($estilos-base,font-size);
 }
 #font1{
     font-size: 1.5rem;
 }
 img{
-    margin-top: 1.5rem; margin-bottom: 1.5rem;
+    @include margins(1.5rem, 1.5rem);;
 }
