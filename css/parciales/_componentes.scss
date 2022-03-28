@@ -1,16 +1,23 @@
 @import "./variables";
 
 h1{
-    font-size: 4rem; color: #F4ACB7; font-family: 'Caveat', cursive;
+    font-size: 4rem; color: $color-marron; font-family: 'Caveat', cursive;
 }
 h2{
-    font-size: 3rem; font-family: map-get($estilos-base,font-family), cursive; color: #9D8189;
+    font-size: 3rem; font-family: map-get($estilos-base,font-family), cursive; color: $color-marron;
 }
+h3{
+    font-size: 3rem; font-family: map-get($estilos-base,font-family), cursive; color: black;
+}
+h4{
+    font-size: 2rem; font-family: map-get($estilos-base,font-family), cursive; color: black;
+}
+
 
 a{color: black; text-decoration: none;
 }
 p{
-    font-family: map-get($estilos-base,font-family), cursive; line-height: 2; font-size: map-get($estilos-base,font-size);background-color: $color-crema; overflow: hidden; text-align: map-get($estilos-base,text-align); display: inline-block;
+    font-family: map-get($estilos-base,font-family), cursive; line-height: 2; font-size: map-get($estilos-base,font-size); overflow: hidden; text-align: map-get($estilos-base,text-align); display: inline-block;
 }
 section{
     text-align: map-get($estilos-base,text-align);
@@ -37,4 +44,8 @@ legend{
 }
 img{
     @include margins(1.5rem, 1.5rem);;
+}
+#input-mensaje{
+    height: 30vh;
+    width: 50vw;
 }

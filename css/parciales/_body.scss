@@ -4,11 +4,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background: rgb(244,172,183);
-    background: -moz-radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
-    background: radial-gradient(circle, rgba(244,172,183,1) 0%, rgba(216,226,220,1) 50%, rgba(255,202,212,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4acb7",endColorstr="#ffcad4",GradientType=1);    
+    background: $color-crema; 
 }
 .pasoscomprar li{
     font-family: map-get($estilos-base,font-family), cursive; font-size: map-get($estilos-base,font-size); list-style-type: number; padding-left: 1rem; text-align:left;
@@ -35,5 +31,5 @@ body{
 #contenedor-video-comprar{ margin: 3rem; width:560px; height:315px; overflow:hidden; flex-shrink: 10;
 }
 .img-carrusel{
-    height: 50vh; object-fit: cover
+    height: 90vh; object-fit: cover
 }
